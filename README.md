@@ -1,4 +1,4 @@
 # kajaarielle.github.io
 
-Projects
+Projects: 
 Game made with html/javascript/phaser
