@@ -21,10 +21,46 @@ body {
     }
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .text-container {
     background-color: white;
     padding: 20px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+img {
+    max-height: 220px;
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    transition: border-color 0.3s ease;
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack image and heading vertically */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  a:hover {
+    border-color: #007bff;
+  }
+
 .wave {
     background: rgb(255 255 255 / 25%);
     border-radius: 1000% 1000% 0 0;
