@@ -8,6 +8,11 @@ body {
     background-attachment: fixed;
 }
 
+.text-container {
+    background-color: white;
+    padding: 20px;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 0%;
